@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer p {
+    color: orange;
+    font-size: 12pt;
+}
+#firstpar{
+    color:aqua
+}
+.blue{
+    color:blue
+}
+.bigger{
+    font-size:18pt;
+}
