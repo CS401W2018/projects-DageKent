@@ -21,3 +21,6 @@ footer p {
 .underline {
     text-decoration:underline;
 }
+div p {
+    color:red;
+}
