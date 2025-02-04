@@ -1,16 +1,23 @@
-body {
+head {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(212, 181, 193);
 }
 footer p {
     color: orange;
     font-size: 12pt;
 }
-#firstpar{
+#firstpar {
     color:aqua
 }
-.blue{
+.blue {
     color:blue
 }
-.bigger{
+.bigger {
     font-size:18pt;
+}
+.itallic {
+    font-style:italic
+}
+.underline {
+    text-decoration:underline;
 }
