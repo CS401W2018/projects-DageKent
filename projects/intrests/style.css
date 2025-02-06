@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-
+        color:black;
         font-size: 12pt;
         background-color:#FFD8C1
 }
@@ -10,9 +10,10 @@ body {
 .green {
     color:#5D6F7E;
     font-weight: bold;
+    font-size: 13pt;
 }
 .lightColor {
-    color:#7DA69C
+    color:#5A7C74
 }
 .highLight {
     font-weight: bold;
