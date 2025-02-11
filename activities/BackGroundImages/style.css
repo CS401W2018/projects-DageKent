@@ -14,7 +14,6 @@ main {
 }
 .mylist {
     list-style-image: url('sunflower.jpg')
-    
     /*list-style-type: none;*/
 
 }
