@@ -1,19 +1,26 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: url('') black;
+    background: url('blueAndWhite.jpg') black;
     /*
     background-color: black;
     background-image: url('');
     */
 }
-.mylist {
-    /*list-style-type: none;*/
-    list-style-type: url('')
+nav {
+    color: white;
 }
+main {
+    color:white;
+}
+.mylist {
+    list-style-image: url('sunflower.jpg')
+    
+    /*list-style-type: none;*/
 
+}
 header {
     color: white;
-    background: url('') top right no-repeat;
+    background: url('yellow.jpg') top right no-repeat;
     /*
     background-image: url('');
     background-position: top right;
