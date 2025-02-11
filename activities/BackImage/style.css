@@ -1,5 +1,22 @@
-body{
-    background-image: 
-    background-position: ;
-    background-repeat: ;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('') black;
+    /*
+    background-color: black;
+    background-image: url('');
+    */
+}
+.mylist {
+    /*list-style-type: none;*/
+    list-style-type: url('')
+}
+
+header {
+    color: white;
+    background: url('') top right no-repeat;
+    /*
+    background-image: url('');
+    background-position: top right;
+    background-repeat: no-repeat;
+    */
 }
