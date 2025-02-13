@@ -1,15 +1,14 @@
 .current {
-    color:gray;
+    color:white;
     text-decoration: underline;
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: url('cyan.jpg') repeat;
     color:#D08B00
-    
 }
 .current2 {
-    color: white;
+    color: gray;
 }
 .flag {
     background: url('flag.png') top right no-repeat;
