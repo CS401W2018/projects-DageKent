@@ -5,24 +5,15 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: url('cyan.jpg') repeat;
+    color:#D08B00
     
 }
-nav {
+.current2 {
     color: white;
-}
-main {
-    color:white;
 }
 .flag {
     background: url('flag.png') top right no-repeat;
 }
 .mylist {
     list-style-image: url('lantern.png');
-}
-header {
-    color: white;
-    background: url('yellow.jpg') top right no-repeat;
-}
-footer {
-    color:white
 }
