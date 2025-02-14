@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: burlywood;
+    padding: 30px 10px 15px 0;
+    margin: 25px;
+    width: 50%;
+    height:0.5cm;
+    overflow: scroll
+
+}
+    /* Other Options
+    padding: 30px Can replace  padding: 30px 10px 15px 0;
+    margin-bottom: 25px; Can replace  margin: 25px;
+    overflow: visible Can replace  overflow: scroll
+    */
+
+header h1 {
+    border: 50px solid yellow
+}
+main h1 {
+    border: dotted red
+}
+.utah {
+    width:100px;
+    border: thin solid black
+}
+    
