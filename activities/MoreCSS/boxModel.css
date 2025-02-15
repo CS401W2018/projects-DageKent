@@ -24,6 +24,10 @@ main h1 {
 }
 .utah {
     width:100px;
-    border: thin solid black
+    border: thin solid black;
+    text-align: center;
+    margin: 10px auto;
 }
-    
+.utah {
+    width: 100%;
+}
