@@ -3,24 +3,24 @@ body {
 }
 nav a {
     background-color: aqua;
-    display: black;
+    display: block;
     padding: 10px 5px;
     border-bottom: 3px solid white;
 }
 .moving {
     position: absolute;
     top: 300px;
-    right: 300px
+    right: 300px;
 }
 .map {
     width: 250px;
     border: thin solid #000;
-    box-shadow:3px 3px 3px 5 rgba(0,0,0,0.5);
+    box-shadow:3px 3px 3px rgba(0,0,0,0.5);
     font-size: 8pt;
     float: right;
 }
 .floating {
-    float: right
+    float: right;
 }
 .map img {
     width: 100%;
