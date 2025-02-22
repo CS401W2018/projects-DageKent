@@ -56,9 +56,8 @@ nav a:hover {
 
 #wrapper {
     background-color: white;
-    width: 90%;
-    max-width: 900px;
-    height:750px;
+    width: 850px;
+    height:700px;
     margin: 0 auto;
     padding: 20px;
     border: thin solid black;
