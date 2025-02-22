@@ -35,11 +35,13 @@ nav a:hover {
     float: left;
     margin: 0 20px 20px 0;
     width: 400px;
+    border: 2px solid black;
+    box-sizing: border-box;
 }
 
 .sWorld img {
     width: 100%;
-    
+    display: block;
 }
 
 .sWorld figcaption {
@@ -68,7 +70,4 @@ nav a:hover {
 p {
     line-height: 1.5;
     text-shadow: 2px 2px 5px gray;
-}
-footer {
-    color:red;
 }
