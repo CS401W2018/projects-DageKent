@@ -14,9 +14,6 @@ header h1 {
     background-clip: border-box;
     text-align: center;
 }
-main h1 {
-    max-width: 400px;
-}
 .clear {
     clear: both
 }
