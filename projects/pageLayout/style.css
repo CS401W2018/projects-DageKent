@@ -14,6 +14,9 @@ header h1 {
     background-clip: border-box;
     text-align: center;
 }
+main h1 {
+    max-width: 400px;
+}
 .clear {
     clear: both
 }
@@ -70,4 +73,8 @@ nav a:hover {
 p {
     line-height: 1.5;
     text-shadow: 2px 2px 5px gray;
+}
+footer {
+    position: relative;
+    clear: both;
 }
