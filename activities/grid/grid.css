@@ -9,7 +9,7 @@ body {
                          "footer footer footer";
 }
 nav {
-    grid-area:"header";
+    grid-area:header;
 }
 header {
     grid-area: header;
