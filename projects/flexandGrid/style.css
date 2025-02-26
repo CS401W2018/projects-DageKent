@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#wrapper {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-areas: "header header header"
+                         "lside center rside"
+                         "footer footer footer";
+}
+nav {
+    grid-area:header;
+}
+header {
+    grid-area: header;
+}
+#lside {
+    grid-area: rside;
+    background-color: beige;
+}
+#rside {
+    grid-area: lside;
+    background-color: beige;
+}
+footer {
+    grid-area: footer;
+}
+main {
+    grid-area: center;
+}
+.parent {
+    background-color: aqua;
+    padding: 10x;
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr 1fr;
+    gap: 5px;
+}
+    /*每行的大小和数量改变
+        grid-template-columns: 1fr 6fr 1fr;中间link变大
+    grid-template-columns: 1fr 1fr 1fr; 平均填满
+    grid-template-columns: 15% 15% 33%;
+    grid-template-columns: 50px 50px; 数量变化
+    grid-template-columns: 50px 50px 50px; 数量变化
+    */
+.child {
+    background-color: purple;
+}
