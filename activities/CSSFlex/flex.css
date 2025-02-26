@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parent {
+    background-color: rgb(172,172,103);
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+    flex-wrap:row wrap;
+    /*
+    flex-wrap:wrap;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    */
+}
+.child {
+    background-color: rgb(171,145,196);
+    width:100px;
+    margin: 10px;
+}
