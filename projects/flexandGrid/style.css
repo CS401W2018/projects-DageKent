@@ -1,12 +1,17 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+header h1 {
+    background-image: url(bar.jpg);
+    color:white;
+    background-size: cover;
+}
 #wrapper {
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
     grid-template-areas: "header header header"
-                         "sidebar center center"
                          "nav nav nav"
+                         "sidebar center center"
                          "footer footer footer";
 }
 aside {
@@ -14,7 +19,8 @@ aside {
     padding: 10px;    
 }
 nav {
-
+    width:100%;
+    display: flex;
     grid-area:nav;
     padding: 10px;
     gap:10px;
@@ -28,16 +34,18 @@ nav a{
     padding:10px 20px;
     flex:1;
     min-width: 100px;
+    text-decoration: none;
 }
 nav a:hover {
     color: red;
+    text-decoration: underline;
 }
 .profileContainer {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .profileCard {
     flex: 1 1 calc(30% - 20px);
@@ -45,9 +53,8 @@ nav a:hover {
     border: 2px solid black;
     overflow: hidden;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
-
-    
     overflow: hidden;
+    box-shadow:2px 2px 5px rgb(173, 23, 23);
 }
 .profileCard .image {
     width: 100%;
@@ -56,33 +63,15 @@ nav a:hover {
     background-size: cover;
     background-position: center;
 }
-
-/*
-.profileCard .content {
-    padding: 10px;
-    text-align: center;
-    width: 100%;
-}
-.profileCard h2 {
-    margin: 5px 0;
-    font-size: 18px;
-}
-.profileCard p {
-    font-size: 14px;
-    color: gray;
-}
-*/
 header {
     grid-area: header;
 }
-#rside {
-    grid-area: lside;
-    background-color: beige;
+main {
+    grid-area: center;
 }
 footer {
     grid-area: footer;
     padding: 20px;
-    text-align: center;
 }
 .footerLinks {
     display: grid;
@@ -101,25 +90,5 @@ footer {
 .footerLinks a:hover {
     background-color: brown;
     color: yellow;
-}
-
-main {
-    grid-area: center;
-}
-.parent {
-    background-color: aqua;
-    padding: 10x;
-    display: grid;
-    grid-template-columns: 1fr 6fr 1fr 1fr;
-    gap: 5px;
-}
-    /*每行的大小和数量改变
-        grid-template-columns: 1fr 6fr 1fr;中间link变大
-    grid-template-columns: 1fr 1fr 1fr; 平均填满
-    grid-template-columns: 15% 15% 33%;
-    grid-template-columns: 50px 50px; 数量变化
-    grid-template-columns: 50px 50px 50px; 数量变化
-    */
-.child {
-    background-color: purple;
+    text-decoration: none;
 }
