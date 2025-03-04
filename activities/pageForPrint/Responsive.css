@@ -1,41 +1,46 @@
 body {
-font-family: Arial, Helvetica, sans-serif;
-margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 header {
-background-color: pink;
+    background-color: pink;
 }
 header h1 {
-margin: 0;
+    margin: 0;
 }
 nav {
-display: flex;
-justify-content: space-evenly;
-background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
 }
 nav a {
-display: block;
-padding: 10px;
-background-color: blue;
-color: white;
-text-decoration: none;
+    display: block;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
 }
 nav a:hover {
-text-decoration: underline;
-color:blue;
-background-color: white;
+    text-decoration: underline;
+    color:blue;
+    background-color: white;
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .card {
-border: thin solid black;
-box-shadow: 3px 3px 3px rgba(40,40,40,0.5);
-width: 300px;
+    border: thin solid black;
+    box-shadow: 3px 3px 3px rgba(40,40,40,0.5);
+    width: 300px;
 }
 .card figure {
-margin:0;
+    margin:0;
 }
 .card img {
-width:100%;
+    width:100%;
 }
 main {
-display: flex;
+    display: flex;
 }
