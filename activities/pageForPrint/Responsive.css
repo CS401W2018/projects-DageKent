@@ -5,6 +5,9 @@ body {
 header {
     background-color: pink;
 }
+header {
+    background-color: rgb(176,165,231);
+}
 header h1 {
     margin: 0;
 }
@@ -44,3 +47,32 @@ nav a:hover {
 main {
     display: flex;
 }
+
+@media ONLY screen AND (max-width: 900px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        margin-bottom: 20px;
+        width: 90%;
+    }
+    .feature {
+        order: -1;
+    }
+}
+
+@media ONLY screen AND (max-width: 700px) {
+    nav {
+        flex-direction: column;
+    }
+    nav a {
+        border-bottom: thin solid white;
+    }
+}
+/*页面拉伸变小后到600px时候header应用黑色。*/
+/*@media ONLY screen AND (max-width: 600px) {
+    header {
+        background-color: black;
+    }
+}*/
