@@ -56,6 +56,9 @@ aside {
     justify-content: space-around;
     flex-wrap: wrap;
 }
+.name {
+    text-align: center;
+}
 .card {
     border: thin solid black;
     box-shadow: 3px 3px 3px rgba(40,40,40,0.5);
@@ -65,6 +68,7 @@ aside {
     margin:0;
 }
 .caption {
+    text-align: center;
     font-weight: 1000;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -115,10 +119,3 @@ footer {
         border-bottom: thin solid white;
     }
 }
-
-/*页面拉伸变小后到600px时候header应用黑色。*/
-/*@media ONLY screen AND (max-width: 600px) {
-    header {
-        background-color: black;
-    }
-}*/
