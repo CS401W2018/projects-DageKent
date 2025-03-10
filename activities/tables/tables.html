@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Page</title>
+    <link rel="stylesheet" href="table.css">
+</head>
+<body>
+    <header>
+        <h1>Web Design</h1>
+    </header>
+    <main>
+        <table border="1">
+            <tr>
+                <td>Department</td>
+                <td>Number</td>
+                <td>Time</td>
+                <td>Location</td>
+                <td>credits</td>
+            </tr>
+            <tr>
+                <th colspan="5">Winter 2025</th>
+            </tr>
+            <tr>
+                <td>CS</td>
+                <td rowspan="2">140</td>
+                <td>11:00-11:50 AM</td>
+                <td>p2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>CS</td>
+                <td>12:00-12:50 PM</td>
+                <td>P3</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>CS</td>
+                <td>210</td>
+                <td>2:00-2:50 PM</td>
+                <td>P3</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>CS</td>
+                <td>320</td>
+                <td>3:00-3:50 PM</td>
+                <td>P3</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th colspan="5">Spring 2025</th>
+            </tr>
+            <tr>
+                <td>CS</td>
+                <td>320</td>
+                <td>3:00-3:50 PM</td>
+                <td>P3</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th id="total-credits" colspan="4">Total credits sample A</th>
+                <td header="total-credits">15</td>
+            </tr>
+            <tbody>
+            <tfoot>
+                <tr>
+                    <th id="total-credits" colspan="4">Total credits sample B</th>
+                    <td header="total-credits">15</td>
+                </tr>
+            </tfoot>
+            </tbody>
+        </table>
+    </main>
+    <h2>When do you use a table?</h2>
+    <p>When demand to present the structural data, such as time table, transcripts, and financial statement.</p>
+    <h2>When do you not use a table?</h2>
+    <p>When need to create layout page or just sample content composition, should use CSS not a table.</p>
+    <h2>When do you need to do extra work for table accessibility?</h2>
+    <p>When a screen reader needs to recognize the table, should add such as caption and th tags to improve accessibility.</p>
+    <footer>
+        <p>&copy; 2025 Kent</p>
+    </footer>
+</body>
+</html>
