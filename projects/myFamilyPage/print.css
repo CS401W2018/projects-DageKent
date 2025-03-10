@@ -8,9 +8,7 @@ background-color: pink;
 header h1 {
 margin: 0;
 }
-nav {
-display: none;
-}
+
 .row {
 display: flex;
 justify-content: space-around;
@@ -41,4 +39,12 @@ width:100%;
 }
 main {
 display: flex;
+}
+@media print {
+    nav {
+        display: none;
+        }
+        main h1 {
+            page-break-before: always;     
+        }
 }
