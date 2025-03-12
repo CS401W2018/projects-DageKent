@@ -10,11 +10,31 @@ body {
     border-collapse: collapse;
     /*放这里全部背景被填充background-color: rgb(58, 106, 238);*/
 }
-.schedule tr {/*可以去掉。。。tr 把背景色加到 th，td 那里也可以*/
-    background-color: rgb(58, 106, 238);
-}
+
 .schedule th, .schedule td {
     border: thin solid black;
     padding: 10px;
-    
+    vertical-align: middle;/*变化？*/
+}
+.schedule thead tr{
+    background-color: aquamarine;
+    color: white;
+}
+.schedule tfoot tr{
+    background-color: aquamarine;
+    color: white;
+}
+.odd {
+    background-color: bisque;
+}
+.schedule tbody tr,:nth-child(even) {
+    background-color: rgb(142, 149, 169);
+}
+main p:first-letter {
+    font-size:30px;
+    color: red;
+}
+
+/*.schedule tr {/*可以去掉。。。tr ,把背景色加到 th，td 那里也以*/
+    /*background-color: rgb(142, 149, 169);
 }
