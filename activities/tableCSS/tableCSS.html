@@ -14,7 +14,7 @@
         <h1>Tables</h1>
         <table class="schedule">
         <caption>Course Schedule</caption>
-            <thead>
+        <thead>
             <tr>
                 <th>Department</th>
                 <th>Number</th>
@@ -64,24 +64,23 @@
                 <td>P3</td>
                 <td>3</td>
             </tr>
-            <tr>
-                <th id="total-credits" colspan="4">Total credits sample A</th>
-                <td header="total-credits">15</td>
-            </tr>
-            <tbody>
-            <tfoot>
+        </tbody>
+        <tfoot>
                 <tr>
-                    <th id="total-credits" colspan="4">Total credits sample B</th>
-                    <td header="total-credits">15</td>
+                    <th colspan="4">Total credits</th>
+                    <th>15</th>
                 </tr>
             </tfoot>
-            </tbody>
         </table>
     </main>
     <h2>Why don't we use the border attribute?</h2>
-    <p></p>
+    <p>The border attribute is an outdated HTML attribute.
+         Today, web design uses CSS to control and style tables,
+          CSS makes code more flexible and easier to maintain.</p>
     <h2>What is the easiest way to color every other row a different color?</h2>
-    <p></p>
+    <p>Using the CSS nth-child selector, such as tr:nth-child(even) { background-color: blue; }.
+         This will make even-numbered rows automatically change colors,
+          avoid the need to manually set each row's color.</p>
     <footer>
         <p>&copy; 2025 Kent</p>
     </footer>
