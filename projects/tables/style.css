@@ -17,6 +17,7 @@ nav a:hover {
 }
 main {
     display: flex;
+    flex-wrap: wrap;
 }
 main caption {
     color:gold;
