@@ -1,15 +1,49 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
 }
 nav a {
     color:red;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+    color:blue;
 }
 main {
-    flex:1;
+    display: flex;
+}
+main caption {
+    color:gold;
+    background-color: rgb(221, 22, 22);
 }
 #sidebar {
-    display: flex;
-    justify-content: space-between;
- }
+    width: 250px;
+    background-color: darkorange;
+    padding: 10px;
+    margin-left: auto;
+}
+.Album {
+    border: 5px solid rgb(22, 19, 226);
+    }
+.Album thead th {
+    border: 2px solid #000;
+    font-style: italic;
+    color: blueviolet;
+}
+.Album tbody td {
+    border: 1px solid #000;
+    text-align: center;
+}
+.Album tbody tr:nth-child(odd) {
+    background-color: #AAA639;
+}
+.Album tbody tr:nth-child(even) {
+    background-color: blueviolet;
+    color: white;
+}
