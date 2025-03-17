@@ -18,7 +18,7 @@
             </div>
             <div classs="form-row">
                 <label for="email">E-mail:</label>
-                 <input type="email" name="email" value:"kent@byuh.edu" id="mail">
+                 <input type="email" name="email" value="kent@byuh.edu" id="mail">
             </div>
             <div>
                 <label for="pass">Password</label>
