@@ -33,7 +33,7 @@
                 </select>
             </div>
             <div>
-                <div>Year in School</div>
+                <div>Year in School:</div>
                 <label><input type="radio" name="fresh" value="Freshman"> Freshman</label>
                 <label><input type="radio" name="soph" value="Sophmore"> Sophmore</label>
             </div>
@@ -41,6 +41,16 @@
             </div>
         </form>
     </main>
+        <h2>The form tag has an "action" attribute. What does it do?</h2>
+        <p>To specify the URL where the form data is sent after submission.</p>
+        <h2>The form tag has a "method" attribute. What does it do?</h2>
+        <p>To define how the data of form is sent.</p>
+        <h2>What is the difference between a "POST" and a "GET"?</h2>
+        <p>GET used for data in the URL, visible, limit length,
+             and suitable for data query.
+             POST used for data save in the request, more secure,
+              transmit big data, and suitable for data edit.
+        </p>
     <footer>
         <p>&copy; 2025 Kent</p>
     </footer>
