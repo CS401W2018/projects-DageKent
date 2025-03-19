@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+    <header>
+        <h1>Web Design</h1>
+    </header>
+    <main>
+        <form action="processing.html" method="get">
+            <fieldset>
+                <legend> Account info</legend>
+            <div class="form-row">
+                <label for="Full Name">Full Name:</label>
+                <input type="text" name="fullname" placeholder="Full Name">
+            </div>
+            <div class="form-row">
+                <label for="email">E-mail:</label>
+                 <input type="email" name="email" value="kent@byuh.edu" id="mail">
+            </div>
+            
+            <div class="form-row">
+                <label for="pass">Password</label>
+                <input type="password" name="Password" id="pass">
+            </div>
+
+            </div>
+            <div class="form-row">
+                <label for="state>">State:</label>
+                <select name="state" id="state">
+                    <option value="CO">Colorado</option>
+                    <option value="ID" selected>Idaho</option>
+                    <option value="HI">Hawaii</option>
+                </select>
+            </div>
+            <div class="radio-row">
+                <div class="form-spacer">Year in School:</div>
+                <label><input type="radio" name="fresh" value="Freshman"> Freshman</label>
+                <label><input type="radio" name="soph" value="Sophmore"> Sophmore</label>
+            </div>
+            
+            <div class="form-row">
+                <label for="comments">comments:</label>               
+                <textarea name="comments" id="comments">
+            </textarea>
+            </div>
+            <div class="form-row">
+                <label><input type="checkbox" name="agree" id="agree" checked> Remember me</label>
+                </textarea>
+           </div>
+            <div>
+                <input type="submit">
+            </div>
+        </form>
+    </fieldset>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Kent</p>
+    </footer>
+</body>
+</html>
