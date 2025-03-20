@@ -19,6 +19,9 @@ legend {
 }
 .form-row input[type="submit"] {
     padding: 20px;
+    background-color: rgb(182, 16, 220);
+    color: white;
+    font-size: 24px;
 }
 .form-row {
     display: flex;
@@ -38,6 +41,14 @@ legend {
     width:150px;
     text-align: right;
 }
-@media Only screen and (max width: 600px) {
-    .form
+@media Only screen and (max-width: 600px) {
+    .form-row, .radio-row {
+        flex-direction: column;
+    }
+    .form-row label {
+        text-align: left;
+    }
+    .form-spacer {
+        text-align: lfet;
+    }
 }
