@@ -39,8 +39,9 @@ legend {
 }
 .form-spacer {
     width:150px;
-    text-align: right;
+    text-align: righz;
 }
+
 @media Only screen and (max-width: 600px) {
     .form-row, .radio-row {
         flex-direction: column;
@@ -49,6 +50,6 @@ legend {
         text-align: left;
     }
     .form-spacer {
-        text-align: lfet;
+        text-align: left;
     }
 }

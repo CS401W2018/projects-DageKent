@@ -48,9 +48,14 @@ legend {
     width:150px;
     text-align: right;
 }
+.checkbox-row {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
 .checkbox-row label {
-    text-align: left;
-    margin-left: 150px;
+    width: 150px;
+    text-align: right;
 }
 footer {
     color:rgb(237, 99, 6);
