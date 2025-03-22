@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+    <header>
+        <h1>Forms</h1>
+    </header>
+<main>
+        <form action="submitted.html" method="get">
+            <fieldset>
+                <legend>Sign for a new account</legend>
+            <div class="form-row">
+                <label for="Fullname">Full Name:</label>
+                <input type="text" name="fullname" id="fullname" placeholder="Name">
+            </div>
+
+            <div class="form-row">
+                <label for="pass">Password:</label>
+                <input type="password" name="password" id="pass" placeholder="Password">
+            </div>
+
+            <div class="form-row">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Email">
+            </div>
+
+            <div class="form-row">
+                <label for="bd">Birth Date:</label>
+                <input type="date" name="bd" id="bd">
+            </div>
+
+            <div class="form-row">
+                <label for="gender">Gender:</label>
+                <select name="gender" id="gender">
+                    <option value="SE" selected>Select Here</option>
+                    <option value="M">Male</option>
+                    <option value="FE">Female</option>
+                </select>
+            </div>
+
+            <div class="radio-row">
+                <div class="form-spacer">Prefer to be called:</div>
+                    <label for="mr"><input type="radio" name="prefer" value="Mr"> Mr</label>
+                    <label for="miss"><input type="radio" name="prefer" value="Miss"> Miss</label>
+            </div>
+            <div class="form-row">
+                <label for="contact">Contact:</label>               
+                <textarea name="contact" id="contact"></textarea>
+            </div>
+            <div class="checkbox-row">
+                <label for="agree">
+                    <input type="checkbox" name="agree" id="agree" checked>Stay signed in</label>
+           </div>
+            <div class="form-row">
+                <div class="form-spacer"></div>
+                <input type="submit">
+            </div>
+        </fieldset>
+    </form>
+
+</main>
+
+    <footer>
+        <p>&copy; 2025 Kent</p>
+    </footer>
+</body>
+</html>
