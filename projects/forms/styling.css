@@ -19,7 +19,7 @@ legend {
     border-radius: 8px;
     background-color: rgb(255, 255, 255);
 }
-.form-row input:not([type="submit"]):focus {
+.form-row input:not([type="submit"]):focus, .form-row textarea:focus {
     background-color: #FFB624;
 }
 .form-row input[type="submit"] {
@@ -28,6 +28,7 @@ legend {
     color: white;
     font-size: 20px;
 }
+
 .form-row {
     display: flex;
     gap: 10px;
