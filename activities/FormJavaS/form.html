@@ -20,7 +20,7 @@
             </div>
             <div class="form-row">
                 <label for="mail">E-mail:</label>
-                 <input type="email" name="email" value="kent@byuh.edu" id="mail">
+                 <input type="email" name="email" value="kent@byuh.edu" id="mail" >
             </div>
             
             <div class="form-row">
@@ -60,18 +60,25 @@
         </fieldset>
     </form>
     <h2>What is JavaScript? How did it get its name?</h2>
-    <p>A programing laguage, made for first browser to
-        JavaScript是一种用于Web开发的前端编程语言。最初由Netscape开发，原名LiveScript，后因Java流行更名为JavaScript，但与Java关系不大。
-    </p>
+    <p>A programing laguage, created for first browser.
+         Netscape developed it, was called LiveScript,
+         back in the days Java was famous,
+          they renamed it to attract more attention, called it JavaScript.</p>
 
     <h2>What are the two ways you can run JavaScript?</h2>
-    <p></p>
+    <p>One runs in the browser, JavaScript code can direct embedded into HTML documents,
+         and call from browsers, such using script tags. Also, JavaScript can run on servers,
+          using such as Node.js  environment, can call JavaScript from servers.</p>
 
     <h2>What was the most popular front-end js library?</h2>
-    <p></p>
+    <p>JQuery was the most popular front-end js library,
+         it simpified DOM manipulating, event processing,
+         make develop to be more convinient.</p>
 
     <h2>What is the most popular front-end js library today?</h2>
-    <p></p>
+    <p>React.js is the most popular front-end js library today, developed by Facebook,
+        based on component architecture, more popular use in modern Web development.
+    </p>
 </main>
 
     <footer>
@@ -85,16 +92,25 @@
             const fullname = document.getElementById("fullname").value;
             const email = document.getElementById("mail").value;
             const pass = document.getElementById("pass").value;
+            const age = document.getElementById("age").value;
 
             if (!fullname) {
-                alert("You need to enter your name.")
+                alert("You need to enter your name.");
                 return;
             }
+
+            if (!age || age<18) {
+                alert("You need to be 18");
+                return;
+            }
+
             const formData = {
                 fullname:fullname,
                 email: email,
                 password: pass
             };
+            console.log(formData);
+            this.submit();
             /*console.log(fullname);*/
         });
     </script>
