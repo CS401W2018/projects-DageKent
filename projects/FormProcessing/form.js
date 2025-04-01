@@ -48,7 +48,7 @@ document.getElementById("workForm").addEventListener("submit", function(event) {
             alert("Error submitting form.");
         }
     };
-    xhr.send((JSON.stringify(data));
+    xhr.send();
     console.log(data);
 
 });
