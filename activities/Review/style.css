@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("blue.jpg");
+    background-color: blue;/*这里的目的是当背景图不能读取时，背景色可以显示。*/
+}
+header {
+    
+    background-image: url("love.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: grey;
+    width:300px;
+    margin-top: 50px auto; 
+    margin: auto;
+    text-align: center;
+    /*margin-bottom: 50px;*/
+}
+header h1 {
+    margin-bottom: 0px;
+}
+
+nav {
+    background-color: grey;
+    height: 300px;
+    
+
+}
+.list {
+    list-style-image: url("small.jpg");
+}
+.f {
+    color: rgba(49, 49, 179, 0.5);
+}
+.g{
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+}
+#c {
+    height: 400px;
+    width: 600px;
+}
+.current {
+    color:rgb(238, 5, 145)
+}
