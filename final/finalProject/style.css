@@ -3,6 +3,8 @@ body {
 }
 .current {
     color:rgb(233, 10, 10);
+    font-weight: bold;
+    font-size:22px;
 }
 .background {
     background-image: url("image.jpg");
@@ -14,8 +16,19 @@ nav {
     text-align: center;
     font-size: 20px;
 }
+nav a {
+
+    padding: 10px;
+    text-decoration: none;
+    }
+nav a:hover {
+    text-decoration: underline;
+    color:black;
+    background-color: white;
+    
+    }
 .homeN {
-    margin-bottom:5px;
+    margin-bottom:10px;
 }
 .slogan {
     margin:auto auto auto 50px;
