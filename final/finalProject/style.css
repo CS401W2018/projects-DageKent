@@ -8,10 +8,14 @@ body {
     background-image: url("image.jpg");
     height:500px;
     background-repeat: no-repeat;
+
 }
 nav {
     text-align: center;
     font-size: 20px;
+}
+.homeN {
+    margin-bottom:5px;
 }
 .slogan {
     margin:auto auto auto 50px;
