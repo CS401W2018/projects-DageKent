@@ -160,12 +160,15 @@ width:100%;
     display: flex; 
     flex-direction: column; 
     gap: 10px; 
-    align-items: flex-start; 
+    align-items: center; 
     background-color: #FFC500;
-    margin: auto 600px auto 600px;
+    margin: 20px auto;
     align-items: center;
     padding: 20px;
+    width: 20%;
 }
+
+
 
 
 #submit {
@@ -393,4 +396,70 @@ nav {
         word-wrap: break-word;
         hyphens: auto;
     }
+    
+
+
+
+    #eForm {
+        margin: 20px auto;
+        width: 90%;
+        padding: 15px;
+    }
+    
+    .formT {
+        margin: 20px auto;
+        width: 90%;
+    }
+    
+    .Fa {
+        flex-direction: column;
+        width: 90%;
+        margin: 20px auto;
+    }
+    
+    .tipsContent {
+        flex-direction: column;
+    }
+    
+    .tipsImages {
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .tips ol {
+        width: 100%;
+    }
+    
+    body#formPic {
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .backLink {
+        position: static;
+        text-align: center;
+        margin: 10px auto;
+        display: block;
+    }
+    
+   
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+    
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+
+    input, textarea {
+        width: 90%;
+        box-sizing: border-box;
+    }
 }
+
