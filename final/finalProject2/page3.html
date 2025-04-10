@@ -6,7 +6,7 @@
     <title>Cool Tourist</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="formPic">
     <header>
         <h1>Tourist Attractions</h1>
     </header>       
@@ -15,6 +15,19 @@
         <a href="page3.html" class="current">Sign Up</a>
         <a href="page4.html">Resources & References</a>
         </nav>
+
+        <div id="signIn"></div>
+        <form action="processing.html" method="get" id="eForm">
+
+            Full Name: <input type="text" name="fullname" id="fullname" placeholder="First&Last">
+            Age: <input type="number" name="Age" id="age">
+            Number of Travelers: <input type="number" name="groupSize" id="size" placeholder="At least 1"><br>
+            Preferred Travel Date: <input type="date" name="travelDate" id="date"><br>
+            E-mail: <input type="email" name="email" value="sample@gmail.com" id="mail" >
+            Requests or Conern:<textarea name="comments" id="comments" placeholder="Please, tell us your concern..."></textarea><br>
+            <br>
+                <input id="submit" type="submit">
+        </form>
 
 
     
