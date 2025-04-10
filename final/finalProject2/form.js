@@ -44,8 +44,8 @@ document.getElementById("eForm").addEventListener("submit", function(event) {
     xhr.onreadystatechange = function (){
         if (xhr.readyState === 4 && xhr.status === 200) {
             const response = JSON.parse(xhr.responseText);
-            document.getElementById("content").innerHTML = response.message;
-            document.getElementById("workForm").reset();
+            document.getElementById("signIn").innerHTML = response.message;
+            document.getElementById("eform").reset();
         } else if (xhr.readyState === 4) {
             alert("Error submitting form.");
         }
