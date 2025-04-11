@@ -42,3 +42,14 @@ nav {
 .current {
     color:rgb(238, 5, 145)
 }
+
+
+
+.container {
+    display:grid;
+    grid-template-columns: 3fr ;
+}
+.item {
+    background-color: aqua;
+
+}
