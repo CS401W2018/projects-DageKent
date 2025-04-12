@@ -487,13 +487,17 @@ nav {
     }
     
     input[type="date"] {
-        width: 200px;
         box-sizing: border-box;
         height: 40px;
         padding: 12px;
         display: block;
         margin-left: 0;
-   }
+   }input[type="date"] {
+        width: 100%;
+        box-sizing: border-box;
+        height: 40px;
+        padding: 12px;
+    }
     textarea {
         width: 100%;
         box-sizing: border-box;
