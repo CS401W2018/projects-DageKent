@@ -485,12 +485,15 @@ nav {
         height: 40px;
         padding: 12px;
     }
+    
     input[type="date"] {
-        width: 100%;
+        width: 200px;
         box-sizing: border-box;
         height: 40px;
         padding: 12px;
-    }
+        display: block;
+        margin-left: 0;
+   }
     textarea {
         width: 100%;
         box-sizing: border-box;
