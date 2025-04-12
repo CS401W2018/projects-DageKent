@@ -491,6 +491,12 @@ nav {
         height: 40px;
         padding: 12px;
     }
+    input[type="date"] {
+        width: 100%;
+        box-sizing: border-box;
+        height: 40px;
+        padding: 12px;
+    }
     textarea {
         width: 100%;
         box-sizing: border-box;
@@ -503,6 +509,7 @@ nav {
     input[type="submit"] {
         width: 100%;
         margin: 10px 10px;
+        box-sizing: border-box;
         padding: 20px;
         height:50px;
         margin-top: -10px;
