@@ -309,7 +309,9 @@ nav {
         border-bottom: thin solid black;
         display: block;
     }
-    
+    .indexH {
+            font-size:23px;                                                                                px;
+        }
     .background {
         background-size: cover;
         background-position: center;
