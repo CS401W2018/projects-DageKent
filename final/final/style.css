@@ -421,7 +421,7 @@ nav {
     
 
 
-
+    
     #eForm {
         margin: 20px auto;
         width: 90%;
@@ -459,12 +459,6 @@ nav {
         background-position: center;
     }
     
-    .backLink {
-        position: static;
-        text-align: center;
-        margin: 10px auto;
-        display: block;
-    }
     
    
     html, body {
