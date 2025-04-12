@@ -490,7 +490,6 @@ nav {
         box-sizing: border-box;
         height: 40px;
         padding: 12px;
-        display: block;
         margin-left: 0;
     }
     textarea {
