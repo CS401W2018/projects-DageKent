@@ -283,6 +283,13 @@ nav {
     height: auto;
     border: 1px solid #ccc;
 }
+
+
+.video {
+    margin-top: 40px;
+    display: flex; 
+    justify-content: center;
+}
 @media ONLY screen AND (max-width: 600px) {
     nav {
         flex-direction: column;
