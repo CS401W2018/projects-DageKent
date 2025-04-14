@@ -159,15 +159,34 @@ width:100%;
 #eForm {
     display: flex; 
     flex-direction: column; 
-    gap: 10px; 
-    align-items: center; 
+    gap: 1px; 
     background-color: #FFC500;
-    margin: 20px auto;
+    margin: 0px auto;
     align-items: center;
-    padding: 20px;
+    padding:10px;
     width: 20%;
 }
-
+#eForm input,
+#eForm textarea,
+#eForm input[type="date"] {
+    width: 80%;
+    padding: 12px;
+    font-size: 20px;
+    height: 40px;
+    box-sizing: border-box;
+    margin: 5px 0;
+}
+#comments {
+    min-height: 80px;
+    resize: vertical;
+}
+#eForm input[type="submit"] {
+    width: 80%;
+    height: 60px;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 18px;
+}
 
 
 
@@ -300,7 +319,13 @@ nav {
 }
 
 @media ONLY screen AND (max-width: 600px) {
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
     nav {
+        display: flex;
         flex-direction: column;
         text-align: center;
         background-color: rgb(43, 164, 216);
